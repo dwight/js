@@ -42,7 +42,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="../src/Release"
-				PreprocessorDefinitions="_DEBUG;XP_WIN;EXPORT_JS_API;_CRT_SECURE_NO_WARNINGS;WIN32;_LIB"
+				PreprocessorDefinitions="_DEBUG;XP_WIN;STATIC_JS_API;_CRT_SECURE_NO_WARNINGS;WIN32;_LIB"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="3"
@@ -151,6 +151,10 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
+				RelativePath="..\src\jsapi.c"
+				>
+			</File>
+			<File
 				RelativePath="..\src\jsarena.c"
 				>
 			</File>
@@ -208,6 +212,10 @@
 			</File>
 			<File
 				RelativePath="..\src\jsinterp.c"
+				>
+			</File>
+			<File
+				RelativePath="..\src\jsiter.c"
 				>
 			</File>
 			<File
