@@ -103,11 +103,11 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				Optimization="2"
-				EnableIntrinsicFunctions="true"
+				Optimization="0"
+				EnableIntrinsicFunctions="false"
 				AdditionalIncludeDirectories="../src/Release"
-				PreprocessorDefinitions="XP_WIN;EXPORT_JS_API;_CRT_SECURE_NO_WARNINGS;WIN32;_LIB"
-				RuntimeLibrary="2"
+				PreprocessorDefinitions="XP_WIN;STATIC_JS_API;_CRT_SECURE_NO_WARNINGS;WIN32;_LIB"
+				RuntimeLibrary="0"
 				EnableFunctionLevelLinking="true"
 				UsePrecompiledHeader="0"
 				WarningLevel="3"
